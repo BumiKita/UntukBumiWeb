@@ -1,0 +1,58 @@
+#beranda
+{
+    display: block;
+    background-size: cover;
+    padding: 36px 120px;
+    max-height: 100vh;
+}
+
+#motto
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    top: 33%;
+    left: 10%;
+    z-index: 1;
+}
+
+#motto *
+{
+    font-weight: bold;
+}
+
+#motto button
+{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #A0D47E;
+}
+
+#moving-background
+{
+    z-index: -1;
+}
+
+#header-left
+{
+    width: 33%;
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#header-right
+{
+    width: 45%;
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,27 @@
+nav
+{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 120px;
+    z-index: 10;
+    background-color: white;
+}
+
+#navigation-links
+{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    gap: 35px;
+}
+
+#navigation-links h2 a
+{
+    color: black;
+}

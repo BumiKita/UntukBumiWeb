@@ -1,0 +1,33 @@
+#tentang-kami
+{
+    background: linear-gradient(42.98deg, #D6EEDE 14.15%, rgba(154, 201, 147, 0) 92.66%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#tentang-kami div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#tentang-kami div p
+{
+    max-width: 70%;
+}
+
+.developers
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
