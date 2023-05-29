@@ -5,9 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 75px;
+    gap: 90px;
     padding-left: 5%;
     padding-right: 5%;
+    margin-top: 15%;
 }
 
 #tentang-kami div
@@ -22,6 +23,7 @@
 #tentang-kami div p
 {
     max-width: 70%;
+    text-align: center;
 }
 
 .developers

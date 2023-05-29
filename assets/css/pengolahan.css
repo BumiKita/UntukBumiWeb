@@ -1,8 +1,5 @@
 #olah-sampah
 {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
     margin-top: 10%;
     gap: 75px;
     padding-left: 10%;
@@ -11,6 +8,20 @@
     height: auto;
     min-width: 100vw;
     max-width: 100vh;
+    background: url("../alasan.svg");
+    background-size: cover;
+}
+
+#olah-sampah h1
+{
+    margin-bottom: 1%;
+
+}
+
+#olah-sampah h3
+{
+    margin-top: 1%;
+
 }
 
 .button-sampah{
@@ -20,6 +31,7 @@
     margin: 10px 0;
     overflow: hidden;
 }
+
 
 .button-sampah header{
     display: flex;
