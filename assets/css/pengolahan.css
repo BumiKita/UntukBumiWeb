@@ -43,7 +43,7 @@
 }
 
 .button-sampah .wrapper-content{
-    /* display: none; */
+    display: none;
     transition: all 0.2s linear;
 }
 
